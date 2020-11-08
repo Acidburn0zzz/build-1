@@ -41,7 +41,7 @@ Note: All these commands must be run as `root`.
 * Clone the build repository (```/usr/build``` is used for this example):
 
     ```
-    git clone https://github.com/freenas/build /usr/build
+    git clone https://github.com/acidburn0zzz/freenas-build /usr/build
     ```
 
 * Install Dependencies
@@ -76,9 +76,9 @@ make release BUILD_SDK=yes
 ```
 
 
-Clean builds take a while, not just due to operating system builds, but
-because poudriere has to build all of the ports. Later builds are faster,
-only rebuilding files that need it.
+Clean builds take a while, not just due to operating system builds, 
+but because poudriere has to build all of the ports.
+Later builds are faster, only rebuilding files that need it.
 
 Use ```make clean``` to remove all built files.
 
